@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+* {
+  /* outline: 1px solid red; */
+  box-sizing: border-box;
+  /* font-size: 1rem; */
+  user-select: none;
+}
+
+@media screen and (max-width: 640px) {
+  * {
+    font-size: 3.7vw;
+  }
+}
